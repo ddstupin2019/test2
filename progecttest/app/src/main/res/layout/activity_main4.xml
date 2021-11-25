@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="430dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingHorizontal="50dp"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/rez1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ваш бал 1 из 4"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/rez2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ваш бал 2 из 4"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/rez3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ваш бал 3 из 4"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/rez4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ваш бал 4 из 4"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/rez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ваш бал 0 из 4"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:visibility="gone"/>
+</LinearLayout>
